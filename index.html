@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body class="bg-gray-800">
+
+    <div class="w-full h-[100vh] flex justify-center items-center flex-col gap-[20px]" id="clock">
+        <p class="text-[30px] tracking-tight text-white">Digital Clock</p>
+        <div class="clock-container flex gap-[20px] ">
+            <div
+                class="clock-item w-[120px] rounded-[10px] h-[200px] bg-white border-[1px] border-black flex justify-center items-center">
+                <p class="text-[50px] font-extrabold" id="hour">15</p>
+            </div>
+            <div class="clock-item w-[120px] rounded-[10px] h-[200px] bg-white border-[1px] border-black flex justify-center items-center">
+                <p class="text-[50px] font-extrabold" id="minute">30</p>
+            </div>
+            <div class="clock-item w-[120px] rounded-[10px] h-[200px] bg-white border-[1px] border-black flex justify-center items-center">
+                <p class="text-[50px] font-extrabold" id="second">40</p>
+            </div>
+        </div>
+        <p  class="text-white text-[20px]" id="date"></p>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+
+</html>
